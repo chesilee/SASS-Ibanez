@@ -1,0 +1,14 @@
+// Logo
+.mx-auto img{
+    width: 150px;
+}
+
+// Botonera
+#botonera{
+    background: linear-gradient(to right, $main-color, rgb(51, 46, 46), rgb(124, 108, 108));
+    font-size: 0.6rem;
+    color: white;
+}
+    #botonera ul li a:hover{
+        font-weight: 600;
+    } 

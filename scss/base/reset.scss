@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=&family=Roboto:wght@300&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+.titulo_xl{
+    background-color: $main-color;
+    color: white;
+}
+
+.contenedor_galeria{
+    height: 40px;
+}
+
+.img_carrousel{
+    object-fit: cover
+}

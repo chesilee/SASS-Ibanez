@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=&family=Roboto:wght@300&display=swap");
+* {
+  font-family: 'Roboto', sans-serif; }
+
+.titulo_xl {
+  background-color: black;
+  color: white; }
+
+.text-center iframe {
+  width: auto; }
+
+.font_autos {
+  color: black;
+  font-weight: 500;
+  font-size: 1.2rem; }
+
+.mx-auto img {
+  width: 150px; }
+
+#botonera {
+  background: linear-gradient(to right, black, #332e2e, #7c6c6c);
+  font-size: 0.6rem;
+  color: white; }
+
+#botonera ul li a:hover {
+  font-weight: 600; }
+
+.form-label {
+  color: black;
+  font-weight: 500; }
+
+@media (min-width: 300px) {
+  .mx-auto img {
+    width: 200px; } }
+
+@media (min-width: 576px) {
+  .mx-auto img {
+    width: 300px; } }
+
+@media (min-width: 768px) {
+  .mx-auto img {
+    width: 300px; }
+  nav div ul li a {
+    color: white;
+    font-size: 1.5rem; }
+  nav div ul li {
+    padding: 0 20px; } }
+
+@media (min-width: 1024px) {
+  .mx-auto img {
+    width: 400px; }
+  nav div ul li a {
+    color: white;
+    font-size: 2rem; }
+  nav div ul li {
+    padding: 0 25px; } }
+
+@media (min-width: 1366px) {
+  .mx-auto img {
+    width: 500px; }
+  nav div ul li {
+    padding: 0 40px; } }
